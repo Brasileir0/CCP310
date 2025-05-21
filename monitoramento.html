@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gráficos - ELETR⚡TECH</title>
+  <link rel="stylesheet" href="./styles/monitoramento.css">
+</head>
+<body>
+
+  <!-- Voltar e Dropdown -->
+  <div class="top-left">
+    <a href="inicio.html"><button class="btn-voltar">←</button></a>
+    <select class="select-comodo">
+      <option>Cômodo</option>
+    </select>
+  </div>
+
+  <!-- Cabeçalho com logo e botão sair -->
+  <header class="cabecalho">
+    <div class="logo">ELETR<span class="raio">⚡</span>TECH</div>
+    <a href="index.html"><button class="btn-sair">Sair</button></a>
+  </header>
+
+  <!-- Gráficos -->
+  <div class="graficos">
+    <canvas id="graficoBarras"></canvas>
+    <canvas id="graficoPizza"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./script/graficos.js"></script>
+</body>
+</html>

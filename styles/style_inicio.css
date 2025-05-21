@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Botões laterais */
+.botoes-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn-plus {
+  width: 60px;
+  height: 60px;
+  font-size: 2rem;
+  background-color: #ffd36b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.btn-help {
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  background-color: #ffd36b;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.raio {
+  color: black;
+}
+
+/* Botão sair */
+.btn-sair {
+  padding: 5px 15px;
+  border: none;
+  background-color: #ffd36b;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+/* Botão Monitoramento Diário */
+.btn-monitoramento {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  background-color: #ffd36b;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
