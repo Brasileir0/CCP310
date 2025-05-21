@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  position: relative;
+}
+
+.voltar {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  background-color: #ffd36b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.icon {
+  color: black;
+}
+
+.titulo {
+  margin-top: 0;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.form-box {
+  background-color: #ffd36b;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.btn {
+  background-color: #ffd36b;
+  border: none;
+  margin-top: 25px;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffcc4d;
+}
